@@ -29,7 +29,7 @@ def main():
    if sys.argv[1] == "-h":
       print("Usage: python3 sslscanner.py [-h] [-t Target]")
       print("-h: Print program usage")
-      print("-f Target: Target for scanning")
+      print("-t Target: Target for scanning")
       sys.exit(0)
 
    if sys.argv[1] == "-t":
